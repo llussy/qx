@@ -14,7 +14,7 @@
 		   
 		   
 请搭配@blackmatrix7的知乎净化助手使用
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.snippet
+;https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zheye/zheye.snippet
 
 
 [rewrite_local]
