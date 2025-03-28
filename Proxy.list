@@ -44,6 +44,7 @@ DOMAIN-SUFFIX,devv.ai
 DOMAIN-SUFFIX,disconnect.me
 DOMAIN-SUFFIX,disqus.com
 DOMAIN-SUFFIX,dlive.tv
+DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,dowjones.com
 DOMAIN-SUFFIX,duckduckgo.com
 DOMAIN-SUFFIX,earthcam.com
@@ -112,7 +113,6 @@ DOMAIN-SUFFIX,newyorker.com
 DOMAIN-SUFFIX,now.com
 DOMAIN-SUFFIX,ok.ru
 DOMAIN-SUFFIX,omny.fm
-DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openvpn.net
 DOMAIN-SUFFIX,owltail.com
 DOMAIN-SUFFIX,oxfordscholarship.com
@@ -215,7 +215,6 @@ DOMAIN-SUFFIX,zyxel.com
 
 DOMAIN,cdn.jsdelivr.net
 DOMAIN,cdn.statically.io
-DOMAIN,hub.docker.com
 DOMAIN,lab.skk.moe
 DOMAIN,ocsp.int-x3.letsencrypt.org
 DOMAIN,search.arc.net
@@ -267,7 +266,6 @@ DOMAIN-SUFFIX,bitflyer.com
 DOMAIN-SUFFIX,bitget.com
 DOMAIN-SUFFIX,bithumb.com
 DOMAIN-SUFFIX,bitstamp.net
-DOMAIN-SUFFIX,bybit.com
 DOMAIN-SUFFIX,coinbase.com
 DOMAIN-SUFFIX,coingecko.com
 DOMAIN-SUFFIX,coinmarketcap.com
@@ -286,6 +284,14 @@ DOMAIN-SUFFIX,upbit.com
 DOMAIN-SUFFIX,binance.com
 DOMAIN-SUFFIX,binance.info
 DOMAIN-SUFFIX,bnbstatic.com
+DOMAIN-SUFFIX,bntrace.com
+DOMAIN-SUFFIX,yingwangtech.cloud
+# > Bybit
+DOMAIN-SUFFIX,byabcde.com
+DOMAIN-SUFFIX,bybdc6.com
+DOMAIN-SUFFIX,bybit.com
+DOMAIN-SUFFIX,bybitglobal.com
+DOMAIN-SUFFIX,ffbbbdc6d3c353211fe2ba39c9f744cd.com
 # > OKX
 DOMAIN-SUFFIX,okx.com
 DOMAIN-SUFFIX,okx.com.cdn.cloudflare.net
@@ -354,6 +360,9 @@ DOMAIN,assets2.xboxlive.com
 DOMAIN,az416426.vo.msecnd.net
 DOMAIN,az668014.vo.msecnd.net
 DOMAIN,github.global.ssl.fastly.net
+# > OpenAI
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,openai.com
 # > Pinterest
 DOMAIN-SUFFIX,pinimg.com
 DOMAIN-KEYWORD,.pinterest.
@@ -388,30 +397,20 @@ DOMAIN-SUFFIX,telegram.space
 DOMAIN-SUFFIX,telegram-cdn.org
 DOMAIN-SUFFIX,telesco.pe
 DOMAIN-SUFFIX,tg.dev
-# > Americas
-IP-ASN,59930,no-resolve
-IP-CIDR6,2a0a:f280::/32,no-resolve
-# IP-CIDR,91.108.12.0/22,no-resolve
-# > Finland
-IP-ASN,211157,no-resolve
-# IP-CIDR,91.105.192.0/23,no-resolve
-# IP-CIDR,185.76.151.0/24,no-resolve
-# > Europe
-IP-ASN,62041,no-resolve
+IP-CIDR,91.108.56.0/22,no-resolve
+IP-CIDR,91.108.4.0/22,no-resolve
+IP-CIDR,91.108.8.0/22,no-resolve
+IP-CIDR,91.108.16.0/22,no-resolve
+IP-CIDR,91.108.12.0/22,no-resolve
 IP-CIDR,149.154.160.0/20,no-resolve
+IP-CIDR,91.105.192.0/23,no-resolve
+IP-CIDR,91.108.20.0/22,no-resolve
+IP-CIDR,185.76.151.0/24,no-resolve
+IP-CIDR6,2001:b28:f23d::/48,no-resolve
+IP-CIDR6,2001:b28:f23f::/48,no-resolve
 IP-CIDR6,2001:67c:4e8::/48,no-resolve
-# IP-CIDR,91.108.4.0/22,no-resolve
-# IP-CIDR,91.108.8.0/22,no-resolve
-# IP-CIDR6,2001:b28:f23d::/48,no-resolve
-# > Singapore
-IP-ASN,62014,no-resolve
-# IP-CIDR,91.108.16.0/22,no-resolve
-# IP-CIDR,91.108.56.0/22,no-resolve
-# IP-CIDR6,2001:b28:f23f::/48,no-resolve
-# > India
-IP-ASN,44907,no-resolve
-# IP-CIDR,91.108.20.0/22,no-resolve
-# IP-CIDR6,2001:b28:f23c::/48,no-resolve
+IP-CIDR6,2001:b28:f23c::/48,no-resolve
+IP-CIDR6,2a0a:f280::/32,no-resolve
 # ------
 # > The Economist
 DOMAIN-SUFFIX,economist.com
@@ -461,8 +460,12 @@ DOMAIN-SUFFIX,yadi.sk
 DOMAIN-SUFFIX,yandex.ru
 DOMAIN,disk.yandex.com
 # > Z-Library
+DOMAIN-SUFFIX,articles.sk
+DOMAIN-SUFFIX,go-to-library.sk
 DOMAIN-SUFFIX,singlelogin.re
 DOMAIN-SUFFIX,singlelogin.rs
+DOMAIN-SUFFIX,z-lib.gs
+DOMAIN-SUFFIX,z-library.rs
 
 # (Region-Restricted Access Denied)
 DOMAIN-SUFFIX,engadget.com
@@ -473,7 +476,7 @@ DOMAIN-SUFFIX,xiaomi.eu
 DOMAIN-SUFFIX,zaobao.com.sg
 DOMAIN-SUFFIX,zoom.us
 DOMAIN,addons.mozilla.org
-DOMAIN,c.mi.com
+DOMAIN,community.oneplus.com
 DOMAIN,wego.here.com
 # > Alphabet
 DOMAIN-SUFFIX,go.dev
@@ -487,6 +490,13 @@ DOMAIN,books.itunes.apple.com // iBooks Store download
 DOMAIN,facetime.apple.com // FaceTime Links
 DOMAIN,lookup-api.apple.com // Look Up
 DOMAIN,radio.itunes.apple.com // Apple Music Radio
+DOMAIN,apple-relay.apple.com // Apple Intelligence
+DOMAIN,apple-relay.cloudflare.com
+DOMAIN,apple-relay.fastly-edge.com
+DOMAIN,cp4.cloudflare.com
+# > Mi
+DOMAIN,c.mi.com
+DOMAIN,new.c.mi.com
 # > Web Preview
 DOMAIN,apps.apple.com
 DOMAIN,books.apple.com
